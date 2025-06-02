@@ -1,0 +1,34 @@
+IL_batch_size: 4096
+argv: '[''main.py'', ''ACIL'', ''--dataset'', ''CIFAR-100'', ''--base-ratio'', ''0.5'',
+  ''--phases'', ''25'', ''--data-root'', ''~/dataset'', ''--IL-batch-size'', ''4096'',
+  ''--num-workers'', ''16'', ''--backbone'', ''resnet32'', ''--gamma'', ''0.1'', ''--buffer-size'',
+  ''8192'', ''--cache-features'', ''--backbone-path'', ''./backbones/resnet32_CIFAR-100_0.5_None'']'
+backbone: resnet32
+backbone_path: ./backbones/resnet32_CIFAR-100_0.5_None\backbone.pth
+base_epochs: 300
+base_ratio: 0.5
+batch_size: 256
+buffer_size: 8192
+cache_features: true
+cache_path: ./backbones/resnet32_CIFAR-100_0.5_None
+compensation_ratio: 1
+cpu_only: false
+data_root: C:\Users\86182/dataset
+dataset: CIFAR-100
+dataset_seed: null
+exp_name: ACIL
+gamma: 0.1
+gamma_comp: 0.1
+gpus: null
+label_smoothing: 0.05
+learning_rate: 0.5
+method: ACIL
+momentum: 0.9
+num_workers: 16
+phases: 25
+saving_root: saved_models\resnet32_CIFAR-100_0.5_None\ACIL\2025-02-16T22-32-22
+seed: null
+separate_decay: false
+sigma: 10
+warmup_epochs: 10
+weight_decay: 0.0005

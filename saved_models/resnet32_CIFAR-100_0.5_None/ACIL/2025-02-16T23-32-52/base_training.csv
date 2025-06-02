@@ -1,0 +1,1 @@
+epoch,best_acc@1,loss,acc@1,acc@5,f1-micro,training_loss,training_acc@1,training_acc@5,training_f1-micro,training_learning-rate

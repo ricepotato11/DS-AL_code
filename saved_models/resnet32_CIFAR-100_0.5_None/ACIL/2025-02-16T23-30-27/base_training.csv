@@ -1,0 +1,2 @@
+epoch,best_acc@1,loss,acc@1,acc@5,f1-micro,training_loss,training_acc@1,training_acc@5,training_f1-micro,training_learning-rate
+0,0.02,984.3381296875,0.02,0.0958,0.02,1115.68923625,0.02,0.099,0.02,0.0005
